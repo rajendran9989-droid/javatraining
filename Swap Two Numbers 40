@@ -1,0 +1,14 @@
+mport java.util.*;
+public class Solution {
+    public static void main(String[] args) {
+       int a,b,temp;
+        Scanner d=new Scanner(System.in);
+        a=d.nextInt();
+        b=d.nextInt();
+        temp=a;
+        a = b;
+        b=temp;
+        System.out.print(a+" "+b);
+        
+    }
+}
