@@ -1,0 +1,13 @@
+import java.util.*;
+public class Solution {
+    public static void main(String[] args) {
+        int p,r,t,si;
+        Scanner c=new Scanner(System.in);
+        p=c.nextInt();
+        r=c.nextInt();
+        t=c.nextInt();
+        si=(p*r*t)/100;
+        System.out.println(si);
+        
+    }
+}
